@@ -13,21 +13,20 @@ This repository provides code and data for investigating how large language mode
 ## Repository Structure
 
 ```
-├── dataset/                 # Pre-built datasets
-├── dataset_creation.ipynb   # Dataset construction from WordNet
+├── dataset/                      # Pre-built datasets
+├── dataset_creation.ipynb        # Dataset construction from WordNet
+├── synonym_antonym_study.ipynb   # Synonym Antonym cosine similarty experiments (Section 4.2.1)
 ```
 ## Requirements
-
-For dataset creation only:
 
 - Python ≥ 3.9
 - `nltk`
 - `pandas`
 - `scikit-learn`
-
-For the full pipeline (probing + SAE analysis — code coming soon):
-
 - `torch`
+- `numpy`
 - `transformers`
 - `sae-lens`
+- `matplotlib`
+- `seaborn`
 
